@@ -1,0 +1,76 @@
+<DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=a, initial-scale=1.0">
+        <title> Entre em Contato </title>
+        <link rel="stylesheet" type="text/css" href="/estilo/estilo.css"/>
+    </head>
+    <body>
+        <nav>
+        <h1>
+            <a href="index.html"> Home | </a>
+            <a href="receita.html"> Receita | </a>
+            <a href="video.html"> Vídeo | </a>
+            <a href="contato.html"> Entre em Contato  </a>
+        </h1>
+        </nav>
+        <h3>Preencha o Formulario abaixo</h3>
+        <form name="form1" method="post" action="">
+            Nome: <input type="text" name="nome" placeholder="Digite seu Nome" /><br/>
+
+            E-mail: <input type="email" name="usermail" placeholder="Digite seu E-mail" /> <br/>  
+            
+            Senha: <input type="password" name="senha" placeholder="Digite sua Senha" /> <br/>   
+
+            Sexo: <br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" id="masculino" value="m">
+            <br/>
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="sexo" id="feminino" value="f"> <br>
+             <br/>
+             <h3>Tem alguma sugestão ? Deixe seu comentário abaixo </h3>
+             <textarea rows="8" cols="70"></textarea><br/>
+             <br/>      
+            <h3>Qual a próxima receita que você gostaria de ver em nossa página ?</h3>
+            <input type="checkbox" name="novo prato" value="File Wellington" /> Filé Wellington <br/>  
+            <input type="checkbox" name="novo prato" value="Salmao ao molho de Alcaparras" /> Salmão ao molho de Alcaparras </br> 
+            <input type="checkbox" name="novo prato" value="T-bone Angus" /> T-bone Angus </br>
+            <br />
+            <br />
+            Tem alguma receita que gostaria que nós fizéssemos? É só enviar a receita!!! <input name="arquivo" type="file" />
+            <br>
+            <br>
+            
+            <h3>Qual o acompanhamento ideal para essa Costelinha?</h3>
+            <input list="acompanhamento" name="acompanhamentos" />
+            <datalist id="acompanhamento">
+              <option value="Batata Rústica">
+              <option value="Batata Frita">
+              <option value="Arroz">
+              <option value="Pure de Milho">
+              <option value="Pure de Batata">
+              </option>
+            </datalist>
+            <br>
+            <br/>
+            
+          <h3>E qual seria a bebida perfeita para Acompanhar?</h3>
+            <select>
+              <option value="Cerveja Preta">Cerveja Preta</option>
+              <option value="Chopp">Chopp</option>
+              <option value="Vinho Tinto">Vinho Tinto</option>
+              <option value="Refrigerante">Refrigerante</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            
+            <input type="submit" value="Enviar" onclick="alert('Sua sugestão foi enviada')"/> <br/>
+           </form>
+        <footer>
+            Marcelo C. L. RGM : 22724061 Data 12 de Abril de 2020 - Ciência da Computação 
+        </footer>
+    </body>
+    </html>
