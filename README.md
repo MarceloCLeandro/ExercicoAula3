@@ -1,7 +1,7 @@
-# ExercicoAula3
+# Exercico Aula 3
  Primeiro exercicio feito em aula de Aplicaççoes para internet
 
- Exercícios1.
+ Exercícios 1.
  
  Crie um pequeno site com 4 páginas, onde:
  
